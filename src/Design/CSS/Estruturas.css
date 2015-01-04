@@ -1,0 +1,53 @@
+/**
+ * Estilo básico das estruturas
+ */
+.estrutura {
+    -fx-background-color: #F5F5F5;
+    -fx-effect: dropshadow(gaussian,#0000002e, 8, 0, 0, 0);
+    -fx-min-height: 48;
+    -fx-min-width: 128;
+    -fx-max-width: 256;
+    -fx-padding: 8px;
+    -fx-pref-height: 48;
+    -fx-pref-width: 128
+}
+.estrutura:hover {
+    -fx-background-color: #FAFAFA;
+}
+.estrutura:pressed {
+    -fx-background-color: #EEEEEE;
+    -fx-effect: dropshadow(gaussian,#0000007e, 16, 0, 0, 0);
+}
+.terminador {
+    -fx-shape: "M 24,0 C 24,0 0,0.16071459 0,24 0,47.839286 24,48 24,48 l 78,0 c 0,0 26,-0.428572 26,-24 C 128,0.42857102 102,0 102,0 z";
+    -fx-max-width: 128;
+    -fx-padding: 8px 16px 8px 16px
+}
+.processo {
+    -fx-shape: "m 0,0 0,48 128,0 0,-48 z"
+}
+.entrada {
+    -fx-shape: "M 0,48 128,48 128,0 0,16 z";
+    -fx-padding: 16px 8px 8px 8px
+}
+.saida {
+    -fx-shape: "m 24,0 -24,24 24,24 80,0 c 0,0 24,0.464285 24,-24 C 128,-0.4642861 104,0 104,0 z";    
+    -fx-padding: 8px 16px 8px 24px
+}
+.decisao, .enquanto {
+    -fx-shape: "M 0,64 64,0 128,64 64,128 z";
+    -fx-min-height: 128;
+    -fx-padding: 2em;
+    -fx-pref-height: 128
+}
+.para {
+    -fx-shape: "M 0,24 24,0 104,0 128,24 104,48 24,48 z";
+    -fx-padding: 8px 24px 8px 24px
+}
+/**
+ * Estilo do campo de texto dentro das estruturas
+ */
+.estrutura>.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent
+}

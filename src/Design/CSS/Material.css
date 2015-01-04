@@ -1,0 +1,11 @@
+.janela {
+    -fx-background-color: #f9f9f9
+}
+.barra {
+    -fx-background-color: #673AB7;
+    -fx-effect: dropshadow(gaussian,#0000007e, 16, 0, 0, 0)
+}
+.papel {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian,#0000002e, 8, 0, 0, 0)
+}
